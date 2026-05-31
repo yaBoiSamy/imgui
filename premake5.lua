@@ -22,7 +22,7 @@ project "imgui"
 
     filter "system:windows"
         systemversion "latest"
-        staticruntime "Off"
+        staticruntime "On"
 
     filter { "configurations:Debug" }
         runtime "Debug"
